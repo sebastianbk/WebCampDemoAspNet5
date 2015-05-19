@@ -1,0 +1,19 @@
+﻿@model WebApplication13.Models.BlogPost
+
+<html>
+
+<head>
+    <title>@Model.Title</title>
+</head>
+
+<body style="background-color: red; color: white;">
+    <h1>@Model.Title</h1>
+
+    <p>
+        @Model.Content
+    </p>
+
+    <p>Posted: @Model.DateTimePosted.ToLongDateString()</p>
+</body>
+
+</html>
